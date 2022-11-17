@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add items to the array</h1>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <h1>Remove items to the array</h1>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+
+    <h1>Splice & Slice</h1>
+    <h3>Splice</h3>
+    <p id="demo7"></p>
+    <h3>Slice</h3>
+    <P id="demo8"></P>
+    <script>
+        //Add items at the end
+        const fruits= ["Banana", "Lemon", "Kiwi", "Apple"]
+        fruits.push("Mango", "Pineapple");
+        document.getElementById("demo").innerHTML = fruits;
+        //Add items at the start
+        const cars= ["BMW", "Toyota", "Ford"]
+        cars.unshift("Tesla", "Mini");
+        document.getElementById("demo2").innerHTML = cars;
+
+
+        //Remove last item
+        const names= ["Bob", "Rey", "Ben"]
+        names.pop()
+        document.getElementById("demo3").innerHTML = names;
+        //Remove all items except last item
+        const name= ["Bob", "Rey", "Ben"]
+        document.getElementById("demo4").innerHTML = name.pop();
+        //Remove first item
+        const color= ["Red", "Blue", "Green", "Pink"]
+        color.shift()
+        document.getElementById("demo5").innerHTML = color;
+        //Remove all items except the first
+        const colors= ["Red", "Blue", "Green", "Pink"]
+        document.getElementById("demo6").innerHTML = colors.shift();
+
+        
+        //Splice & Slice
+        const manga= ["Berserk", "Vagabond", "JJBA", "HxH"]
+        manga.splice(2, 0, "Vinland saga", "JJK") //array.splice(add at position 2, how many items will be removed);
+        document.getElementById("demo7").innerHTML = manga;
+
+        const lang = ["HTML", "CSS", "Javascript", "Java", "Python"]
+        let uage = lang.slice(1, 3)//array.slice(Start, End);
+        document.getElementById("demo8").innerHTML = uage;
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.Girl_logo{
+    width: 220px;
+    height: 50px;
+    margin-right: 700px;
+}
+
+.about_font{
+    font-size: 4ch;
+    color: crimson;
+    font-weight: bold;
+}
+
+.variety_of_texts{
+    text-align: left;
+    margin-right: 450px;
+}
+
+.extreme_minority{
+    font-weight: bold;
+    color: red;
+}
+
+.male_91percent{
+    font-weight: bold;
+    color: red;
+}    
+
+.we_can_begin_font{
+    font-style: italic;
+    color: red;
+}
+
+.our_locations_font{
+    font-size: 2.5ch;
+    color: crimson;
+}
+
+.USA_font{
+    list-style-type: disc;
+    margin-bottom: -20px;
+}
+
+.countries_font{
+    list-style-type: circle;
+    margin-left: 70px;
+    color: salmon;
+}
+
+.world_font{
+    list-style-type: disc;
+    margin-bottom: -4px;
+}
+
+.Upcomin_classes_font{
+    font-size: 2.5ch;
+    color: crimson;
+}
+
+.new_york_font{
+    color: blue;
+}
+
+.prog_lang_font{
+    color: crimson;
+}
+
+.signUp_font{
+    color: crimson;
+}
+
+.name_email_loc_font{
+    color:blue;
+    margin-top: -10px;
+}
+        ::placeholder {
+        color: red;          
+        font-size: 11.5px;
+        opacity: 1;
+        }          
+
+        .pamelafox_font{
+            width: 120px;
+            outline-style: auto;               
+            outline-color: gray;
+            color: crimson;
+        }     
+
+        .pamelafox_email_font{
+            width: 120px;
+            margin-top: 2px;
+            color: crimson;
+            position: relative;
+        }                    
+
+.san_francisco_selection{
+    margin-top: 5px;
+    border-radius: 5px;
+}        
+
+.gender_fieldset{
+    width: 500px;
+}            
+
+.experience_font{
+    color:blue;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}            
+
+.experience_textarea{
+    width: 180px;
+    height: 40px;
+}            
+
+.signUp_button{
+    margin-top: 2px;
+    margin-bottom: 30px;
+}        
+
+.twitter_font{
+    color: red;
+}

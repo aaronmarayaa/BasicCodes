@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<title>Loops</title>
+
+<p id="dem"></p>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+
+<script>
+//For
+let str = "";
+for (let i = 0; i <= 10; i++) {
+  str += "The number is " + i + "<br>"
+}
+document.getElementById("dem").innerHTML = str;
+
+const care = ["Apple", "Banana", "Kiwi", "Lemon"];
+let i = 0;
+let txxt = "";
+for (;care[i];) {
+  txxt += care[i] + "<br>";
+  i++;
+}
+document.getElementById("demo4").innerHTML = txxt;
+
+//For each
+function myFunction(value, index, array) {
+ text += array + "<br>";
+}
+let text = "";
+const numbers = [45, 4, 9, 16, 25];
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = text;
+
+//For in
+const person = {fname:"John", lname:"Doe", age:25}; 
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+document.getElementById("demo1").innerHTML = txt;
+
+//For of
+const cars = ["BMW", "Volvo", "Mini"];
+let tevt = "";
+for (let x of cars) {
+tevt += x + "<br>";
+}
+document.getElementById("demo2").innerHTML = tevt;
+
+
+//For of list
+let header = "Templates Literals";
+let tags = ["template literals", "javascript", "es6"];
+let html = `<h2>${header}</h2>
+<ul>`
+for (const x of tags) {
+  html += `<li>${x}</li>`;
+}
+`</ul>`;
+document.getElementById("demo3").innerHTML = html;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+  
+body{
+    background-image:
+    url("https://cdn.shopify.com/s/files/1/1061/1924/products/Pirate_Skull_Emoji_Icon_b77a0005-472e-41e4-ad15-fd871038f91e_1024x1024.png?v=1571606092" );
+    background-color:ghostwhite; 
+    background-size: 30px 30px;
+}
+    
+    *{box-sizing: border-box;}
+    
+.container{
+    width: 578px;
+    height: 760px;
+    padding: 5px;
+    background-color: rgb(218, 186, 144);
+    border: 15px solid rgb(128, 98, 33);
+    border-style:ridge;
+    margin:0 auto;
+    margin-top: 70px;  
+}
+    
+h1{
+    text-align: center; 
+    color: crimson; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        
+.inner_container_left{
+    width: 330px; 
+    height: 610px;  
+    background-color: #ffe6b3;
+    border: 15px solid #008080;
+    border-style: ridge; 
+    margin-left: 5px;
+    margin-right: -1px; 
+    float: left;
+    position: relative;
+}
+    
+.title_charcters{
+    font-size: 2ch;
+}
+    
+.Gon_img{
+    max-width: 100px;
+    height: 100px; 
+    margin-left: 20px;  
+    float: left;
+}
+
+.Gon_font{
+    font-size: 2ch;
+    position: absolute;
+    margin-top: 109px;
+    margin-left: 55px;
+}
+
+.Killua_img{
+    max-width: 100px;
+    height: 100px; 
+    margin-left: 60px;
+    display: inline-block;        
+}
+
+.Killua_font{
+    font-size: 2ch;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.Leorio_img{
+    max-width: 102px;
+    height: 102px;
+    margin-top: 70px;
+    margin-left:20px;
+}
+
+.Leorio_font{
+    font-size: 2ch;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.Kurapika_img{
+    max-width: 100px;
+    height: 100px;
+    margin-left: 53px;
+}
+    
+.Kurapika_font{
+    font-size: 2ch;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 200px;
+}
+    
+.inner_container_right{
+    width: 200px; 
+    height: 610px; 
+    background-color: #ffe6b3;  
+    border: 15px solid #008080; 
+    border-style: ridge; 
+    display: inline-block;
+    margin-right: -5px;
+
+}
+        
+.Description_font{
+    font-size: 2ch;
+}
+    
+.texts{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+    
+       
+        
+    

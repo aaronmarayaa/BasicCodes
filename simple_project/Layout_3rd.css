@@ -1,0 +1,170 @@
+body{
+    background-color: pink;
+}
+
+.Container{
+    width: 800px;
+    height: 695px;
+    background-color: white;
+   margin:auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.Girl_logo{
+    width: 230px;
+    height: 50px;
+    margin-left: 250px;
+}
+
+.about_text{
+    font-size: 4ch;
+    color: crimson;
+    font-weight: bold;
+    }
+    
+.variety_of_fonts{
+    text-align: left;
+    }
+        .Male_91percent{
+            text-decoration: underline -5px;
+            font-weight: bolder;
+            font-size: 3ch;
+            }
+        .We_can_begin_font{
+            font-style: italic;
+            text-decoration: underline -5px;
+            font-size: 2.9ch;
+            font-weight: bold;
+            }    
+        .Extreme_Minority{
+            text-decoration: underline -5px;
+            font-weight: bolder;
+            font-size: 3ch;
+            }                
+    
+.projects_container{
+    width: 200px;
+    height: 350px;
+    background-color: pink;
+    border-style: solid;
+    border-color: salmon;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: right;
+    }
+
+.projects_font{
+    font-size: 2.5ch;
+    color: crimson;
+    }
+
+.USA_font{
+    list-style-type: disc;
+    margin-bottom: -20px;
+    }
+
+.Countries_font_style{
+    list-style-type: circle;
+    margin-left: 70px;
+    margin-bottom: 9px;
+    
+    }
+
+.World_font{
+    list-style-type: disc;
+    margin-bottom: -4px;
+    }
+        
+.Upcoming_classes_font{
+    font-size: 2.5ch;
+    color: crimson;
+    }
+    
+.New_york_font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.Prog_lang_font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+.SignUp_font{
+    color: crimson;
+    }
+
+.Name_email_location{
+    margin-top: -10px;
+    font-weight: bold;
+    }
+
+.Name_textbox{
+    background-color: pink;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    width: 120px;
+    box-sizing: border-box;
+    }
+
+.Email_textbox{    
+    background-color: pink;
+    border: 1px solid #ccc;
+    width: 120px;
+    box-sizing: border-box;
+    }
+
+.SanFrancisco_Selection{
+    margin-top: 5px;
+    border-radius: 5px;
+    }
+
+.Gender_Fieldset{
+    width: 550px;
+    font-weight: bold;
+    }
+
+.Experience_font{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    }
+    
+.Experience_textArea{
+    width: 180px;
+    height: 40px;
+    }
+
+.SignUp_button{
+    margin-top: 2px;
+    margin-bottom: 30px;
+    }
+    
+.Horizontal_line_style{
+    border-top: 1px dashed pink;
+    margin-top:-20px;
+    }
+
+.Twitter_font{
+    margin-left: 325px;
+    }
+    
+.Footer{
+    height: 15px;
+    width: 820px;
+    background-color: salmon;
+    margin-left: -10px;
+    margin-top: 10px;
+    }
+
+.Numbers{
+    position: inherit;
+    color: salmon;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: -15px;
+    }
+
+    
