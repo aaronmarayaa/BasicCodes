@@ -1,53 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+.body{
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+}
+
 .container{
-    height: 300px;
-    width: 300px;
-    background-color: salmon;
-    border: 2px solid black;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    padding-top: -2%;
-    padding-left: 2%;
-    margin-right: 20%;
-    margin-left: 35%;
-  }
-  
-  .angleContainer{
-    height: 45%;
-    width: 100%;
-    background-color: white;
-    padding: 2%;
-  }
-  
-  #button_validate{
-    margin-left: 40%;
-    margin-top: 2%;
-  }
-  
-  .enterAngleText{
-    margin-left: 38%;
-  }
-  
-  #textMargin_angles{
-    margin-left: 35%;
-  }
-  
-  #result1{
-    margin-left: 28%;
-    width: 40%;
-    
-  }
-  
-  .body{
-    background-color: tomato;
-  }
-  /* to remove number adjustment
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  
-  input[type=number] {
-    -moz-appearance: textfield;
-  }
-  */
+  font-family: "poppins",sans-serif;
+  height: 25rem;
+  width: 30rem;
+  box-sizing: border-box;
+  background-color: salmon;
+  border: 2px solid black;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container h1{
+  font-size: 1.8rem;
+}
+
+.angleContainer{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 45%;
+  width: 100%;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.acute-angle {
+  height: 90px;
+  width: 100px;
+  border-bottom: 1px solid red;
+  border-left: 2px solid red;
+  transform: skew(-45deg);
+}
+
+.right-angle {
+  height: 90px;
+  width: 100px;
+  border-bottom: 1px solid red;
+  border-left: 2px solid red;
+  transform: skew(-0deg);
+}
+
+.obtuse-angle {
+  height: 70px;
+  width: 100px;
+  border-bottom: 1px solid red;
+  border-left: 2px solid red;
+  transform: skew(40deg);
+}
+
+.straight-line {
+  height: 50px;
+  width: 180px;
+  border-bottom: 1px solid red;
+}

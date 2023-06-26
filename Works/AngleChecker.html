@@ -5,22 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="AngleChecker.js"></script>
   <link rel = "stylesheet" href = "AngleChecker.css">
-<body class="body">
-  <div class="container">
-  <h1>Super Angle checker</h1>
-<span class="enterAngleText"><label for="result1">Enter angle: <br>
+  
+  <body class="body">
+    <div class="container">
+      <h1>Super Angle checker</h1>
+      <span class="enterAngleText">
+        <label for="result1">Enter angle:</label>
+      </span>
+      <input type="number" id="result1" placeholder="Degree(s)">
 
-</label></span><input type="number" id="result1" placeholder="        Degree(s)">
+      <button type="button" id="button_validate" onclick="myFunction()">Validate</button>
 
-<button type="button" id="button_validate" onclick="myFunction()">Validate</button>
-<br>
-<br>
-  <div class="angleContainer">
-<div id="textMargin_angles"></div>
-<div id="angle"></div>
-</div>
-</div>
-</body>
+      <div class="angleContainer">
+        <div id="textMargin_angles"></div>
+        <div id="angle"></div>
+      </div>
+    </div>
+
+    <script src="AngleChecker.js"></script>
+  </body>
 </html>
